@@ -1,7 +1,25 @@
 const tasksSection = document.querySelector('.task-section');
 const taskDesc = document.getElementById('task-value');
 
-let tasks = [];
+let tasks = [
+  {
+    description: 'Create social Link',
+    completed: false,
+    index: 10,
+  },
+  
+  {
+    description: 'Do Coding Exercise',
+    completed: false,
+    index: 11,
+  },
+
+  {
+    description: 'Doing physical Exercise',
+    completed: false,
+    index: 12,
+  },
+];
 
 class Task {
   constructor(description) {
