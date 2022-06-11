@@ -1,0 +1,30 @@
+{
+  "name": "to-do-list-pr",
+  "version": "1.0.0",
+  "description": "> A To-Do List project from Microverse.  It simply lists the things that needs to be done and allows the user to mark them as complete..\r > The following functionalities will be implmented.\r - Adding a new item.\r - Removing a selected item.\r - Marking a selected item as complete.\r - Removing all items marked as complete at once.",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "lodash": "^4.17.21",
+    "style-loader": "^3.3.1",
+    "webpack-cli": "^4.9.2",
+    "webpack": "^5.70.0",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nati2323/To-Do-List-PR.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nati2323/To-Do-List-PR/issues"
+  },
+  "homepage": "https://github.com/nati2323/To-Do-List-PR#readme"
+}
