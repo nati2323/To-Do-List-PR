@@ -25,6 +25,28 @@
 - browser (e.g. Google Chrome)
 - text editor (e.g. VSCode)
 - terminal/CLI
+## Setup
+     
+   Set-up linters in your local env
+
+     * Setup for HTML-Checker called webhint
+
+        1 - run  "npm install --save-dev hint@6.x"
+        2 - Copy ".hintrc to the root directory of your project"
+        3 - Do not make any changes in config files
+        4 - Run "npx hint ." to run the HTML linter for a check
+        5 - Fix validation errors
+
+
+    
+    * Setup for JavaScript-checker called ESlint
+
+        1 - run  "npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x"
+
+        2 - Copy " .eslintrc.json to the root directory of your project."
+        3 - Do not make any changes in config files
+        4 - Run "npx eslint ."  to run the javaScript linter for a check
+        5 - Fix validation errors.
 
 
 ## Authors
