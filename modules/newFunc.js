@@ -6,13 +6,11 @@ let tasks = [
     description: 'Create social Link',
     completed: false,
     index: 10,
-  }, 
-  {
+  },{
     description: 'Do Coding Exercise',
     completed: false,
     index: 11,
-  },
- {
+  },{
     description: 'Doing physical Exercise',
     completed: false,
     index: 12,
