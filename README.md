@@ -24,7 +24,8 @@
 ### Prerequisites
 - browser (e.g. Google Chrome)
 - text editor (e.g. VSCode)
-- terminal/CLI
+
+
 ## Setup
      
    Set-up linters in your local env
